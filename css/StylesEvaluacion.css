@@ -1,0 +1,193 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.border{
+	border: 1px solid black;
+}
+
+header{
+	width: 80%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #008f39;
+}
+
+.musica {
+	text-align: center;
+	padding: 5px;
+	height: 50px;
+}
+
+nav{
+	width: 80%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #008f39;
+}
+
+.lista{
+	list-style: none;
+	position: relative;
+}
+
+.lista li{
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.lista a{
+	text-decoration: none;
+	color: black;
+}
+
+.lista li:hover a{
+	color: white;
+}
+.imgl{
+	width: 10%;
+	height: 100px;
+	float: left;
+	margin-top: -100px;
+	background-color: #008f39;
+	text-align: center;
+}
+
+.imgl img{
+	width: 60%;
+	height: 60%;
+	margin-top: 15px;
+}
+
+.imgr{
+	width: 10%;
+	height: 100px;
+	float: right;
+	margin-top: -100px;
+	background-color: #008f39;
+	text-align: center;
+}
+
+.imgr img{
+	width: 60%;
+	height: 60%;
+	margin-top: 15px;
+}
+
+/*menu principal*/
+.principal{
+	width: 100%;
+	height: 450px;
+}
+
+.asidel{
+	width: 25%;
+	height: 450px;
+	float: left;
+	border-right: 2px solid #008f39;
+}
+
+.asidel h3{
+	margin-top: 10px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.asidel p{
+	text-align: justify;
+	padding: 15px;
+	font-family: Arial;
+}
+/*aside centro*/
+.asidecentro{
+	width: 50%;
+	height: 450px;
+	float: left;
+	padding: 15px;
+}
+
+/*slaider*/
+.slaider{
+	position: relative;
+	width: 80%;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.slaider ul {
+	width: 100%;
+	height: 300px;
+}
+
+.slaider li{
+	list-style: none;
+}
+.slaider img{
+	width: 100%;
+	height: 300px;
+}
+.asider h3{
+	margin-top: 10px;
+	font-family: Arial;
+	text-align: center;
+}
+.asidecentro p{
+	width: 85%;
+	padding: 15px;
+	text-align: justify;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial;
+}
+
+/*aside right*/
+.asider{
+	width: 25%;
+	height: 450px;
+	float: left;
+	border-left: 2px solid #008f39;
+}
+.asider ul{
+	padding: 15px;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.asider li{
+	padding: 15px;
+	font-size: 20px;
+}
+
+.asider a{
+	text-decoration: none;
+	color: black;
+
+}
+/*footer*/
+.final{
+	height: 47px;
+}
+.rs{
+	height: 100%;
+	padding: 13px;
+	text-align: center;
+}
+
+.rs a{
+	text-decoration: none;
+}
+.rs a img{
+	width: 30px;
+}
+.nombre{
+	padding: 5px;
+	text-align: center;
+	background-color: #008f39;
+}
